@@ -1,0 +1,16 @@
+use std::path::Path;
+use std::slice::Iter;
+s
+use super::Result;
+sasd
+pub const BACKSPACE: char = '\u{0008}';
+pub const DEL: char = '\u{007F}';
+pub const ALLOWED_CONTROL: [char; 4] = ['\t', '\n', BACKSPACE, DEL];
+
+#[derive(Clone, Copy, Debug)]
+pub struct Cursor {
+    pub start_line: usize,
+    pub start_byte: usize,
+    pub start_character: usize,
+    pub end_line: usize,
+    pub end_oksdpokfposdkpf
