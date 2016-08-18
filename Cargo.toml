@@ -1,7 +1,15 @@
 [package]
-name = "razedit"
+name = "editor"
 version = "0.0.1-dev"
 authors = ["Razican <razican@protonmail.ch>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/Razican/Editor"
+description = """
+Editor being implemented in pure Rust for learning.
+"""
+keywords = ["editor", "learning"]
+
 
 [dependencies]
 piston_window = "^0.51"
